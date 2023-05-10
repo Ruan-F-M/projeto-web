@@ -1,0 +1,48 @@
+/* Estilos personalizados para o menu */
+
+/* Estilo para os links do menu */
+.navbar-nav a {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Estilo para o link ativo do menu */
+  .navbar-nav .active > a {
+    color: #fff;
+    background-color: #007bff;
+  }
+  
+  /* Estilo para o botão de expansão do menu em telas menores */
+  .navbar-toggler {
+    border-color: #007bff;
+  }
+  
+  /* Estilo para o ícone do botão de expansão do menu */
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 123, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  /* Estilo para o background color do menu */
+  .navbar {
+    background-color: #fff;
+  }
+  
+  /* Estilo para o hover do menu */
+  .navbar-nav a:hover,
+  .navbar-nav a:focus {
+    color: #fff;
+    background-color: #007bff;
+  }
+  
+  /* Estilo para o logo no menu */
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  /* Estilo para o logo no menu em telas menores */
+  @media (max-width: 767px) {
+    .navbar-brand {
+      font-size: 20px;
+    }
+  }
+  

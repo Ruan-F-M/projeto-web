@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de Estabelecimento</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<h2>Cadastro de Estabelecimento</h2>
+		<form method="post">
+			<div class="form-group">
+				<label for="nome_fantasia">Nome Fantasia:</label>
+				<input type="text" class="form-control" id="nome_fantasia" name="nome_fantasia" required>
+			</div>
+			<div class="form-group">
+				<label for="endereco">Endereço:</label>
+				<input type="text" class="form-control" id="endereco" name="endereco" required>
+			</div>
+			<div class="form-group">
+				<label for="cidade">Cidade:</label>
+				<input type="text" class="form-control" id="cidade" name="cidade" required>
+			</div>
+			<div class="form-group">
+				<label for="num_lojas">Número de Lojas:</label>
+				<input type="number" class="form-control" id="num_lojas" name="num_lojas" required>
+			</div>
+			<button type="submit" class="btn btn-primary">Cadastrar</button>
+		</form>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
